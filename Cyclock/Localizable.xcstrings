@@ -1,0 +1,786 @@
+{
+  "sourceLanguage": "es",
+  "strings": {
+    "%@ h · %lld ciclos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ h · %2$lld cycles"
+          }
+        }
+      }
+    },
+    "%lld ciclos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld cycles"
+          }
+        }
+      }
+    },
+    "%lld ciclos = %@ h de sueño. 5 es lo recomendado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$lld cycles = %2$@ h of sleep. 5 is recommended."
+          }
+        }
+      }
+    },
+    "5 ciclos y como nuevo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 cycles and good as new"
+          }
+        }
+      }
+    },
+    "5 min más…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 more min…"
+          }
+        }
+      }
+    },
+    "Abrir Ajustes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        }
+      }
+    },
+    "Alarma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alarm"
+          }
+        }
+      }
+    },
+    "Consejos de higiene del sueño": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sleep hygiene tips"
+          }
+        }
+      }
+    },
+    "Cyclock no tiene permiso para crear alarmas. Actívalo en Ajustes.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cyclock is not allowed to create alarms. Turn it on in Settings."
+          }
+        }
+      }
+    },
+    "Despertar en pleno sueño profundo causa 'inercia del sueño': desorientación, dolor de cabeza y más fatiga.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waking in the middle of deep sleep causes 'sleep inertia': disorientation, headache and more fatigue."
+          }
+        }
+      }
+    },
+    "Estudio de la NASA: mejora el rendimiento un 34% y la alerta mental un 54%.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NASA study: improves performance by 34% and alertness by 54%."
+          }
+        }
+      }
+    },
+    "Estudios de la NASA con pilotos mostraron que 26 min mejora la alerta (+54%) y el rendimiento (+34%) justo antes de entrar en sueño profundo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NASA studies with pilots showed that 26 min improves alertness (+54%) and performance (+34%) right before entering deep sleep."
+          }
+        }
+      }
+    },
+    "Evita pantallas 1 h antes de dormir, mantén la habitación fresca (~18°C) y corta la cafeína 6 h antes de acostarte.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avoid screens 1 h before bed, keep your room cool (~18°C / 65°F) and cut caffeine 6 h before bedtime."
+          }
+        }
+      }
+    },
+    "Fin de la siesta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nap is over"
+          }
+        }
+      }
+    },
+    "Gato": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cat"
+          }
+        }
+      }
+    },
+    "Hora de despertar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wake-up time"
+          }
+        }
+      }
+    },
+    "Hora de dormir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bedtime"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Sueño ideal. Cumple con la recomendación general de descanso saludable.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ideal sleep. Meets the general recommendation for healthy rest."
+          }
+        }
+      }
+    },
+    "Sueño insuficiente. Es probable que tengas somnolencia durante el día.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Insufficient sleep. You'll likely feel drowsy during the day."
+          }
+        }
+      }
+    },
+    "Sueño ligero. Recarga sin entrar en sueño profundo, así evitas el atontamiento.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Light sleep. Recharges without entering deep sleep, so you avoid grogginess."
+          }
+        }
+      }
+    },
+    "Sueño mínimo. Suficiente para funcionar, pero podrías sentir fatiga acumulada.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minimum sleep. Enough to function, but you may feel accumulated fatigue."
+          }
+        }
+      }
+    },
+    "Sueño óptimo. Te despertarás renovado y con máxima alerta mental.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optimal sleep. You'll wake up refreshed and fully alert."
+          }
+        }
+      }
+    },
+    "Tu cerebro recorre 4 fases de sueño cada ~90 minutos. Despertar al final de un ciclo se siente natural y renovado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your brain goes through 4 sleep stages every ~90 minutes. Waking at the end of a cycle feels natural and refreshing."
+          }
+        }
+      }
+    },
+    "Un ciclo entero con sueño REM. Consolida la memoria y la creatividad.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One full cycle including REM sleep. Consolidates memory and creativity."
+          }
+        }
+      }
+    },
+    "ajustes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "settings"
+          }
+        }
+      }
+    },
+    "alarma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "alarm"
+          }
+        }
+      }
+    },
+    "alarma lista. a dormir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "alarm set. off to bed"
+          }
+        }
+      }
+    },
+    "alarma quitada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "alarm removed"
+          }
+        }
+      }
+    },
+    "alarmas programadas (no salen en la app Reloj)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "scheduled alarms (not listed in the Clock app)"
+          }
+        }
+      }
+    },
+    "auto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "auto"
+          }
+        }
+      }
+    },
+    "calcular": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "calculate"
+          }
+        }
+      }
+    },
+    "cambiar en iOS": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "change in iOS"
+          }
+        }
+      }
+    },
+    "ciclo completo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "full cycle"
+          }
+        }
+      }
+    },
+    "ciclos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cycles"
+          }
+        }
+      }
+    },
+    "ciclos de 90 min + 14 min para dormirte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "90-min cycles + 14 min to fall asleep"
+          }
+        }
+      }
+    },
+    "ciencia del sueño": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sleep science"
+          }
+        }
+      }
+    },
+    "claro": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "light"
+          }
+        }
+      }
+    },
+    "cyclock": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "cyclock"
+          }
+        }
+      }
+    },
+    "deberías despertar a las": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "you should wake up at"
+          }
+        }
+      }
+    },
+    "deberías dormirte a las": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "you should fall asleep at"
+          }
+        }
+      }
+    },
+    "deficiente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "poor"
+          }
+        }
+      }
+    },
+    "desde ahora + 5 min para dormirte, despierta a las": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "from now + 5 min to fall asleep, wake up at"
+          }
+        }
+      }
+    },
+    "despertar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "wake"
+          }
+        }
+      }
+    },
+    "dormir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sleep"
+          }
+        }
+      }
+    },
+    "editar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "edit"
+          }
+        }
+      }
+    },
+    "empezar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "start"
+          }
+        }
+      }
+    },
+    "excelente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "excellent"
+          }
+        }
+      }
+    },
+    "hoy": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "today"
+          }
+        }
+      }
+    },
+    "idioma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "language"
+          }
+        }
+      }
+    },
+    "inicio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "home"
+          }
+        }
+      }
+    },
+    "listo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "done"
+          }
+        }
+      }
+    },
+    "luego puedes cambiarlo en ajustes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "you can change this later in settings"
+          }
+        }
+      }
+    },
+    "mañana": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "tomorrow"
+          }
+        }
+      }
+    },
+    "meta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "goal"
+          }
+        }
+      }
+    },
+    "miau": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "meow"
+          }
+        }
+      }
+    },
+    "no me toques la cola": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "don't touch my tail"
+          }
+        }
+      }
+    },
+    "oscuro": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "dark"
+          }
+        }
+      }
+    },
+    "otra hora": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "another time"
+          }
+        }
+      }
+    },
+    "power nap": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "power nap"
+          }
+        }
+      }
+    },
+    "primera vez por aquí": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "first time here"
+          }
+        }
+      }
+    },
+    "prrr…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "purr…"
+          }
+        }
+      }
+    },
+    "quitar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "remove"
+          }
+        }
+      }
+    },
+    "recomendado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "recommended"
+          }
+        }
+      }
+    },
+    "si te duermes ahora, despierta a las": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "if you fall asleep now, wake up at"
+          }
+        }
+      }
+    },
+    "siesta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nap"
+          }
+        }
+      }
+    },
+    "siesta nasa": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nasa nap"
+          }
+        }
+      }
+    },
+    "siestas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "naps"
+          }
+        }
+      }
+    },
+    "suficiente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "sufficient"
+          }
+        }
+      }
+    },
+    "tema": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "theme"
+          }
+        }
+      }
+    },
+    "todo se guarda en tu iPhone": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "everything is stored on your iPhone"
+          }
+        }
+      }
+    },
+    "¿Cómo funcionan los ciclos de 90 minutos?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How do 90-minute cycles work?"
+          }
+        }
+      }
+    },
+    "¿Por qué evitar siestas de 45 a 60 minutos?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why avoid 45 to 60 minute naps?"
+          }
+        }
+      }
+    },
+    "¿Por qué la siesta NASA dura 26 minutos?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Why does the NASA nap last 26 minutes?"
+          }
+        }
+      }
+    },
+    "¿a qué hora despiertas normalmente?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "what time do you usually wake up?"
+          }
+        }
+      }
+    },
+    "¿cuántos ciclos de 90 min quieres dormir?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "how many 90-min cycles do you want to sleep?"
+          }
+        }
+      }
+    },
+    "¿ya vas a dormir?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "going to sleep yet?"
+          }
+        }
+      }
+    },
+    "✓ alarma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✓ alarm"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
