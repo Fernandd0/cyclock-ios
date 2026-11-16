@@ -138,7 +138,7 @@ final class AlarmService {
         guard try await manager.requestAuthorization() == .authorized else { return nil }
         let attributes = AlarmAttributes<CyclockAlarmMetadata>(
             presentation: AlarmPresentation(alert: .init(title: title)),
-            tintColor: Color.codeFuchsia
+            tintColor: AppStyle.current.tint
         )
         let id = UUID()
         _ = try await manager.schedule(
@@ -146,23 +146,5 @@ final class AlarmService {
             configuration: .alarm(schedule: .fixed(fireDate), attributes: attributes)
         )
         return id
-    }
-}
-
-/// `[alarma]` link used on every result row; drawn as a solid green block once the alarm is set.
-struct SetAlarmButton: View {
-    let date: Date
-    let kind: AlarmKind
-
-    @Environment(AlarmService.self) private var alarms
-
-    var body: some View {
-        let isSet = alarms.isSet(date)
-
-        BracketButton(isSet ? "✓ alarma" : "alarma", color: isSet ? .codeGreen : .codeBlue, isSelected: isSet) {
-            Task { await alarms.toggle(at: date, kind: kind) }
-        }
-        .font(.mono(.subheadline))
-        .sensoryFeedback(.success, trigger: isSet)
     }
 }

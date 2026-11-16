@@ -1,19 +1,18 @@
 import SwiftUI
 
-struct HomeView: View {
+struct TerminalHomeView: View {
     @Environment(AppState.self) private var appState
     @Environment(AlarmService.self) private var alarms
-    @AppStorage(Prefs.goalCycles) private var goalCycles = 5
-    @AppStorage(Prefs.wakeMinutes) private var wakeMinutes = 420
+    private var schedule = SleepSchedule()
 
     var body: some View {
-        let wake = SleepMath.today(minutes: wakeMinutes)
-        let bedtime = SleepMath.bedtime(wakingAt: wake, cycles: goalCycles)
+        let wake = schedule.wake
+        let bedtime = schedule.bedtime
 
         Screen(comment: Comment(verbatim: Self.todayText), title: "cyclock") {
             VStack(alignment: .leading, spacing: 0) {
                 KeyValue(key: "meta") {
-                    Text("\(SleepMath.hoursText(cycles: goalCycles)) h · \(goalCycles) ciclos")
+                    Text("\(schedule.hoursText) h · \(schedule.cycles) ciclos")
                 }
                 .padding(.bottom, 6)
                 KeyValue(key: "dormir") {
@@ -38,14 +37,14 @@ struct HomeView: View {
             TimelineView(.everyMinute) { timeline in
                 VStack(alignment: .leading, spacing: 10) {
                     Comment("si te duermes ahora, despierta a las")
-                    ForEach([5, 6, 4], id: \.self) { cycles in
+                    ForEach(CycleOptions.home, id: \.self) { cycles in
                         TimeRow(
                             index: String(format: "%02d", cycles),
                             time: SleepMath.wakeTime(sleepingAt: timeline.date, cycles: cycles),
                             hours: SleepMath.hoursText(cycles: cycles),
-                            tag: cycles == 5 ? "recomendado" : "\(cycles) ciclos",
-                            tagColor: cycles == 5 ? .codeGreen : .dim,
-                            highlighted: cycles == 5,
+                            tag: cycles == CycleOptions.recommended ? "recomendado" : "\(cycles) ciclos",
+                            tagColor: cycles == CycleOptions.recommended ? .codeGreen : .dim,
+                            highlighted: cycles == CycleOptions.recommended,
                             kind: .wake
                         )
                     }

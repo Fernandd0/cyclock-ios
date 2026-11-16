@@ -1,13 +1,5 @@
 import Foundation
 
-/// UserDefaults keys used with @AppStorage.
-nonisolated enum Prefs {
-    static let theme = "theme"
-    static let didOnboard = "didOnboard"
-    static let goalCycles = "goalCycles"
-    static let wakeMinutes = "wakeMinutes"
-}
-
 /// Pure sleep-cycle arithmetic: 90-minute cycles plus 14 minutes to fall asleep.
 nonisolated enum SleepMath {
     static let cycleMinutes = 90
@@ -52,6 +44,11 @@ nonisolated enum SleepMath {
         var parts = calendar.dateComponents([.hour, .minute], from: date)
         parts.second = 0
         return calendar.nextDate(after: now, matching: parts, matchingPolicy: .nextTime) ?? date
+    }
+
+    /// True when the next occurrence of `date` falls on a later day than today.
+    static func isTomorrow(_ date: Date, calendar: Calendar = .current) -> Bool {
+        !calendar.isDateInToday(nextOccurrence(of: date, calendar: calendar))
     }
 }
 
